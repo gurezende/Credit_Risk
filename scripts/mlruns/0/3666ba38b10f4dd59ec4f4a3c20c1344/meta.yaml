@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/MyDocuments/credit-risk/scripts/mlruns/0/3666ba38b10f4dd59ec4f4a3c20c1344/artifacts
+end_time: 1739486485068
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3666ba38b10f4dd59ec4f4a3c20c1344
+run_name: gaudy-shrew-392
+run_uuid: 3666ba38b10f4dd59ec4f4a3c20c1344
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739486479771
+status: 3
+tags: []
+user_id: gurez

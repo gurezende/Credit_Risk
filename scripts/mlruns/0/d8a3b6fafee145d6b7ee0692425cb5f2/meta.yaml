@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/MyDocuments/credit-risk/scripts/mlruns/0/d8a3b6fafee145d6b7ee0692425cb5f2/artifacts
+end_time: 1739486613070
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d8a3b6fafee145d6b7ee0692425cb5f2
+run_name: bold-skink-611
+run_uuid: d8a3b6fafee145d6b7ee0692425cb5f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739486608943
+status: 3
+tags: []
+user_id: gurez

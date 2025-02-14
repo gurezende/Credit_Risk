@@ -14,9 +14,26 @@ from ucimlrepo import fetch_ucirepo
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.linear_model import LinearRegression
+from sklearn.pipeline import Pipeline
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import StandardScaler
+from sklearn.feature_selection import RFE
+import lightgbm as lgb
+
 
 # Evaluation
-from sklearn.metrics import mean_squared_error, root_mean_squared_error, classification_report
+from sklearn.metrics import mean_squared_error, root_mean_squared_error, classification_report, r2_score
+
+# MLFlow
+import mlflow
+
+# %%
+# Connecting with MLFlow Server
+mlflow.set_tracking_uri("http://127.0.0.1:5000/")
+
+# Set Experiment ID (Get from MLFlow Experiment Tab)
+mlflow.set_experiment(experiment_id=993400020501733055)
+
 # %%
 
 # fetch dataset 
@@ -41,12 +58,16 @@ print(f'There are --{df.isna().sum().sum()}-- missing values in the dataset.')
 print('---')
 df.info()
 
+#%%
+df2 = pd.read_csv('../.data/credits.csv')
 
 # %%
 
 # X and y for regression
-Xr = df_encoded.drop(['credit_amt', 'target'], axis=1)
-yr = pd.DataFrame(scs.boxcox(df_encoded['credit_amt'])[0], columns=['credit_amt'])
+Xr = df2.drop(['credit_amt', 'sex_status', 'target'], axis=1)
+yr = pd.DataFrame(scs.boxcox(df2['credit_amt'])[0], columns=['credit_amt'])
+_, lbd = scs.boxcox(df2['credit_amt'])
+
  
  
 # Split the data in train and test
@@ -56,4 +77,109 @@ X_train, X_test, y_train, y_test = train_test_split(Xr, yr,
 
 # %%
 
+### Preprocessing pipeline
 
+# numerical features
+num_features = X_train.select_dtypes(include='number').columns.tolist()
+num_steps = [('scaler', StandardScaler())]
+
+# categorical features
+cat_features = X_train.select_dtypes(include='object').columns.tolist()
+cat_steps = [('encoder', OneHotEncoder(drop='first'))]
+
+# Pipeline
+preprocess_pipe = ColumnTransformer([
+    ('num', Pipeline(num_steps), num_features),
+    ('cat', Pipeline(cat_steps), cat_features)
+    ])
+
+
+# %%
+### Final Pipeline
+
+modeling = Pipeline([
+    ('preprocess', preprocess_pipe),
+    # ('rfe', RFE(estimator=LinearRegression(), n_features_to_select=n)),
+    ('model', LinearRegression())
+    ])
+
+# Set the description as a tag
+description = "Target Box-Cox model"
+
+# Start MLFlow Run:
+with mlflow.start_run(description=description):
+    # Fit
+    modeling.fit(X_train, y_train)
+    # Ask MLFlow to log the basic information about the model
+    mlflow.sklearn.autolog()
+    # Model evaluation
+    y_hat = modeling.predict(X_train)
+    y_pred = modeling.predict(X_test)
+    # Evaluate the model using mean squared error
+    mse = mean_squared_error(y_test, y_pred)
+    mse_train = mean_squared_error(y_train, y_hat)
+    rmse_ = root_mean_squared_error(y_test, y_pred)
+    # Log additional metrics (custom for my project)
+    mlflow.log_metrics({'test_rmse':rmse_,
+                        'test_r2': r2_score(y_test, y_pred)})
+    
+# %%
+
+### Using XGBoost Regressor
+
+lgb_reg = Pipeline([
+    ('preprocess', preprocess_pipe),
+    ('model', lgb.LGBMRegressor(
+        objective='regression',  # For regression tasks
+        n_estimators=300,      # Number of boosting rounds
+        learning_rate=0.015,     # Learning rate
+        num_leaves=35,         # Maximum number of leaves for base learners
+        random_state=42,       # Random seed for reproducibility
+        n_jobs=-1,
+        ) )
+    ])
+
+# Set the description as a tag
+description = "df2 LGBM model 300 | 35 leaves | 0.015 lr"
+
+# Start MLFlow Run:
+with mlflow.start_run(description=description):
+    # Fit
+    lgb_reg.fit(X_train, y_train)
+    # Ask MLFlow to log the basic information about the model
+    mlflow.sklearn.autolog()
+    # Model evaluation
+    y_hat = lgb_reg.predict(X_train)
+    y_pred = lgb_reg.predict(X_test)
+
+
+    # Evaluate the model using mean squared error
+    mse = mean_squared_error(y_test, y_pred)
+    mse_train = mean_squared_error(y_train, y_hat)
+    rmse_ = root_mean_squared_error(y_test, y_pred)
+    
+    # Log additional metrics (custom for my project)
+    mlflow.log_metrics({'test_rmse':rmse_,
+                        'test_r2': r2_score(y_test, y_pred)})
+# %%
+from scipy.special import inv_boxcox
+pred_df = inv_boxcox(y_test, lbd)
+pred_df['pred'] = inv_boxcox(y_pred, lbd)
+pred_df['errors'] = pred_df['credit_amt'] - pred_df['pred']
+pred_df.sample(10)
+
+# %%
+import seaborn as sns
+sns.histplot(pred_df['errors'], kde=True)
+# %%
+scs.shapiro(pred_df['errors'])
+# %%
+scs.qqplot(pred_df['errors'], line='s')
+# %%
+scs.probplot(pred_df['errors'], dist='norm', plot=plt);
+# %%
+import matplotlib.pyplot as plt
+# %%
+sns.scatterplot(x='pred', y='errors', data=pred_df)
+sns.lineplot(x=pred_df['pred'], y=0, color='red')
+# %%
