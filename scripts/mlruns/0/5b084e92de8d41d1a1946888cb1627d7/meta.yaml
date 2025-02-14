@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/MyDocuments/credit-risk/scripts/mlruns/0/5b084e92de8d41d1a1946888cb1627d7/artifacts
+end_time: 1739561922117
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5b084e92de8d41d1a1946888cb1627d7
+run_name: overjoyed-cat-473
+run_uuid: 5b084e92de8d41d1a1946888cb1627d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739561918701
+status: 3
+tags: []
+user_id: gurez

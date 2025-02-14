@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/MyDocuments/credit-risk/scripts/mlruns/0/66475b1e89e643ab952b483a644d99aa/artifacts
+end_time: 1739561447541
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 66475b1e89e643ab952b483a644d99aa
+run_name: fearless-swan-886
+run_uuid: 66475b1e89e643ab952b483a644d99aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739561443055
+status: 3
+tags: []
+user_id: gurez

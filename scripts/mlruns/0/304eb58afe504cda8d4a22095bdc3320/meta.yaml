@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/MyDocuments/credit-risk/scripts/mlruns/0/304eb58afe504cda8d4a22095bdc3320/artifacts
+end_time: 1739561906349
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 304eb58afe504cda8d4a22095bdc3320
+run_name: incongruous-mink-376
+run_uuid: 304eb58afe504cda8d4a22095bdc3320
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739561902659
+status: 3
+tags: []
+user_id: gurez

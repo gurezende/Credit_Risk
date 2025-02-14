@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/MyDocuments/credit-risk/scripts/mlruns/0/1d3e55847980459f901ad047f7e1aff2/artifacts
+end_time: 1739555405690
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1d3e55847980459f901ad047f7e1aff2
+run_name: lyrical-horse-741
+run_uuid: 1d3e55847980459f901ad047f7e1aff2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739555401598
+status: 3
+tags: []
+user_id: gurez

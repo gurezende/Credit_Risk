@@ -1,0 +1,11 @@
+[('preprocess', ColumnTransformer(transformers=[('num',
+                                 Pipeline(steps=[('scaler', StandardScaler())]),
+                                 ['duration_mths', 'installment_rate_pct',
+                                  'same_resid_since', 'age',
+                                  'n_credits_this_bank', 'dependents']),
+                                ('cat',
+                                 Pipeline(steps=[('encoder',
+                                                  OneHotEncoder(drop='first'))]),
+                                 ['is_customer', 'credit_hist', 'purpose',
+                                  'savings', 'employed', 'property', 'housing',
+                                  'job', 'sex', 'status'])])), ('model', Ridge(alpha=0.001))]

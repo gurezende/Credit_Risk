@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/MyDocuments/credit-risk/scripts/mlruns/0/d795415b88e54383a8aaf2ac40518d45/artifacts
+end_time: 1739563525878
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d795415b88e54383a8aaf2ac40518d45
+run_name: thundering-slug-485
+run_uuid: d795415b88e54383a8aaf2ac40518d45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739563521196
+status: 3
+tags: []
+user_id: gurez

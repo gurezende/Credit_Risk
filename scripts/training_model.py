@@ -3,6 +3,7 @@
 # Data wrangling
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 # Statistics
 import scipy.stats as scs
@@ -17,7 +18,6 @@ from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler
-from sklearn.feature_selection import RFE
 import lightgbm as lgb
 
 
@@ -37,34 +37,36 @@ mlflow.set_experiment(experiment_id=993400020501733055)
 # %%
 
 # fetch dataset 
-statlog_german_credit_data = fetch_ucirepo(id=144) 
+# statlog_german_credit_data = fetch_ucirepo(id=144) 
   
-# data (as pandas dataframes)  X and y
-X = statlog_german_credit_data.data.features 
-y = statlog_german_credit_data.data.targets 
+# # data (as pandas dataframes)  X and y
+# X = statlog_german_credit_data.data.features 
+# y = statlog_german_credit_data.data.targets 
 
-# Make it a data frame for easier manipulation
-df = pd.concat([X,y], axis=1)
+# # Make it a data frame for easier manipulation
+# df = pd.concat([X,y], axis=1)
 
-# Rename columns according to the documentation
-df.columns = ['is_customer', 'duration_mths', 'credit_hist', 'purpose', 'credit_amt', 'savings', 'employed', 'installment_rate_pct',
-              'sex_status', 'guarantors', 'same_resid_since', 'property', 'age', 'other_installment_plans', 'housing', 'n_credits_this_bank',
-              'job', 'dependents', 'phone', 'foreign_worker', 'target']
+# # Rename columns according to the documentation
+# df.columns = ['is_customer', 'duration_mths', 'credit_hist', 'purpose', 'credit_amt', 'savings', 'employed', 'installment_rate_pct',
+#               'sex_status', 'guarantors', 'same_resid_since', 'property', 'age', 'other_installment_plans', 'housing', 'n_credits_this_bank',
+#               'job', 'dependents', 'phone', 'foreign_worker', 'target']
 
-# dataset information 
-print(f'Data shape (rows,cols): {df.shape}')
-print('---')
-print(f'There are --{df.isna().sum().sum()}-- missing values in the dataset.')
-print('---')
-df.info()
+# # dataset information 
+# print(f'Data shape (rows,cols): {df.shape}')
+# print('---')
+# print(f'There are --{df.isna().sum().sum()}-- missing values in the dataset.')
+# print('---')
+# df.info()
 
 #%%
 df2 = pd.read_csv('../.data/credits.csv')
 
+
 # %%
 
 # X and y for regression
-Xr = df2.drop(['credit_amt', 'sex_status', 'target'], axis=1)
+Xr = df2.drop(['credit_amt', 'sex_status', 'target', 'guarantors', 'phone', 
+               'foreign_worker', 'other_installment_plans' ], axis=1)
 yr = pd.DataFrame(scs.boxcox(df2['credit_amt'])[0], columns=['credit_amt'])
 _, lbd = scs.boxcox(df2['credit_amt'])
 
@@ -104,7 +106,7 @@ modeling = Pipeline([
     ])
 
 # Set the description as a tag
-description = "Target Box-Cox model"
+description = "df2 Less Variables2 Target Box-Cox model"
 
 # Start MLFlow Run:
 with mlflow.start_run(description=description):
@@ -167,19 +169,16 @@ pred_df = inv_boxcox(y_test, lbd)
 pred_df['pred'] = inv_boxcox(y_pred, lbd)
 pred_df['errors'] = pred_df['credit_amt'] - pred_df['pred']
 pred_df.sample(10)
+print(f"Mean Error: {pred_df['errors'].mean()}")
 
 # %%
 import seaborn as sns
 sns.histplot(pred_df['errors'], kde=True)
 # %%
 scs.shapiro(pred_df['errors'])
-# %%
-scs.qqplot(pred_df['errors'], line='s')
+
 # %%
 scs.probplot(pred_df['errors'], dist='norm', plot=plt);
-# %%
-import matplotlib.pyplot as plt
-# %%
-sns.scatterplot(x='pred', y='errors', data=pred_df)
-sns.lineplot(x=pred_df['pred'], y=0, color='red')
+
+
 # %%

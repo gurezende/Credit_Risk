@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/MyDocuments/credit-risk/scripts/mlruns/0/34a30482c658450381dcc09179c1ef97/artifacts
+end_time: 1739563484605
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 34a30482c658450381dcc09179c1ef97
+run_name: fun-conch-225
+run_uuid: 34a30482c658450381dcc09179c1ef97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739563484149
+status: 3
+tags: []
+user_id: gurez
