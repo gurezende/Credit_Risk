@@ -11,8 +11,8 @@ RUN pip install pymupdf>=1.25.3
 RUN pip install scikit-learn>=1.6.1
 RUN pip install scipy>=1.15.1
 
-COPY ./app2.py /app/app2.py
+COPY ./app.py /app/app.py
 
 WORKDIR /app
 
-ENTRYPOINT ["streamlit", "run", "app2.py"]
+ENTRYPOINT ["streamlit", "run", "app.py"]
