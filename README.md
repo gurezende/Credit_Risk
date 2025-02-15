@@ -63,8 +63,8 @@ If you're unable to access the MLflow server or Streamlit app, ensure that the c
 ## Images
 <table>
   <tr>
-    <td width="33%"><img src="Credit-Amt-App.jpg" alt="App Image"></td>
-    <td width="33%"><img src="MLFlow_Experiments.jpg" alt="MLFlow Experiments"></td>
-    <td width="33%"><img src="MLFlow_Models.jpg" alt="Models"></td>
+    <td width="33%"><img src="img/Credit-Amt-App.jpg" alt="App Image"></td>
+    <td width="33%"><img src="img/MLFlow_Experiments.jpg" alt="MLFlow Experiments"></td>
+    <td width="33%"><img src="img/MLFlow_Models.jpg" alt="Models"></td>
   </tr>
 </table>
