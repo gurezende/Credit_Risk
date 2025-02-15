@@ -1,6 +1,6 @@
 # Credit_Risk
 
-![](img/credit-risk-app.jpg)
+![](img/credit-risk-app2.jpg)
 
 ## Purpose
 1. Train a *Linear Regression* model to estimate the amount of credit that is pre-approved by a client, based on the database of approved credit lines for a given bank.
