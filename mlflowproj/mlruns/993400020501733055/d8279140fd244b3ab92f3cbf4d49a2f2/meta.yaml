@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/d8279140fd244b3ab92f3cbf4d49a2f2/artifacts
+deleted_time: 1739481585511
+end_time: 1739481215055
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: d8279140fd244b3ab92f3cbf4d49a2f2
+run_name: persistent-gull-58
+run_uuid: d8279140fd244b3ab92f3cbf4d49a2f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739481211335
+status: 3
+tags: []
+user_id: gurez

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/d34c6f54da664cd0a502d3312f35d627/artifacts
+deleted_time: 1739554191554
+end_time: 1739482252541
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: d34c6f54da664cd0a502d3312f35d627
+run_name: amusing-cow-49
+run_uuid: d34c6f54da664cd0a502d3312f35d627
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739482249018
+status: 3
+tags: []
+user_id: gurez

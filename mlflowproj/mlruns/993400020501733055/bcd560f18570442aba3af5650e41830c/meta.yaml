@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/bcd560f18570442aba3af5650e41830c/artifacts
+deleted_time: 1739484795490
+end_time: 1739484773593
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: bcd560f18570442aba3af5650e41830c
+run_name: fearless-hare-940
+run_uuid: bcd560f18570442aba3af5650e41830c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739484768672
+status: 3
+tags: []
+user_id: gurez

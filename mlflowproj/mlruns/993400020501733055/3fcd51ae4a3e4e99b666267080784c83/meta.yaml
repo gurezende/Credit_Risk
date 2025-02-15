@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/3fcd51ae4a3e4e99b666267080784c83/artifacts
+deleted_time: 1739554191541
+end_time: 1739482360815
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 3fcd51ae4a3e4e99b666267080784c83
+run_name: bittersweet-pug-814
+run_uuid: 3fcd51ae4a3e4e99b666267080784c83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739482356103
+status: 3
+tags: []
+user_id: gurez

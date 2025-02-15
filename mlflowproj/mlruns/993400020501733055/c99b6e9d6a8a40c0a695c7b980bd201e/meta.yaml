@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/c99b6e9d6a8a40c0a695c7b980bd201e/artifacts
+deleted_time: 1739570537890
+end_time: 1739484846257
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: c99b6e9d6a8a40c0a695c7b980bd201e
+run_name: capable-mink-752
+run_uuid: c99b6e9d6a8a40c0a695c7b980bd201e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739484842015
+status: 3
+tags: []
+user_id: gurez

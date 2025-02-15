@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/993400020501733055
+creation_time: 1739478976257
+experiment_id: '993400020501733055'
+last_update_time: 1739478976257
+lifecycle_stage: active
+name: credit-regression

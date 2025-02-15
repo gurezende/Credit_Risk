@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/420002559759265287/2b64eb4bed08466a823ffe1bfc296bda/artifacts
+end_time: 1738792573522
+entry_point_name: ''
+experiment_id: '420002559759265287'
+lifecycle_stage: active
+run_id: 2b64eb4bed08466a823ffe1bfc296bda
+run_name: popular-shoat-387
+run_uuid: 2b64eb4bed08466a823ffe1bfc296bda
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738792565397
+status: 3
+tags: []
+user_id: gurez

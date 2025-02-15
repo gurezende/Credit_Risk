@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/5962431954d04c9aa77ee2ff4854b532/artifacts
+deleted_time: 1739482143820
+end_time: 1739482129484
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 5962431954d04c9aa77ee2ff4854b532
+run_name: handsome-sponge-578
+run_uuid: 5962431954d04c9aa77ee2ff4854b532
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739482125735
+status: 3
+tags: []
+user_id: gurez

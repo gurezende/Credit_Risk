@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/d0516b6c4bc748e69a5cd8068eb5fbe0/artifacts
+deleted_time: 1739554461381
+end_time: 1739554144733
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: d0516b6c4bc748e69a5cd8068eb5fbe0
+run_name: zealous-elk-484
+run_uuid: d0516b6c4bc748e69a5cd8068eb5fbe0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739554143555
+status: 3
+tags: []
+user_id: gurez

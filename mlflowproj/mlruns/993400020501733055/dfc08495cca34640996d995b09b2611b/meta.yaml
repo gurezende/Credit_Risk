@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/dfc08495cca34640996d995b09b2611b/artifacts
+deleted_time: 1739483411545
+end_time: 1739483304629
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: dfc08495cca34640996d995b09b2611b
+run_name: gaudy-sheep-803
+run_uuid: dfc08495cca34640996d995b09b2611b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739483299987
+status: 3
+tags: []
+user_id: gurez

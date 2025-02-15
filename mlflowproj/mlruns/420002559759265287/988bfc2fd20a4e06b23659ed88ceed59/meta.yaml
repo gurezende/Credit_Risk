@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/420002559759265287/988bfc2fd20a4e06b23659ed88ceed59/artifacts
+end_time: 1738793152044
+entry_point_name: ''
+experiment_id: '420002559759265287'
+lifecycle_stage: active
+run_id: 988bfc2fd20a4e06b23659ed88ceed59
+run_name: clean-goose-465
+run_uuid: 988bfc2fd20a4e06b23659ed88ceed59
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738793148403
+status: 3
+tags: []
+user_id: gurez

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/700af4f0cfdd46dcadb10c1e2c330806/artifacts
+deleted_time: 1739486920987
+end_time: 1739486905123
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 700af4f0cfdd46dcadb10c1e2c330806
+run_name: flawless-fowl-923
+run_uuid: 700af4f0cfdd46dcadb10c1e2c330806
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739486899833
+status: 3
+tags: []
+user_id: gurez

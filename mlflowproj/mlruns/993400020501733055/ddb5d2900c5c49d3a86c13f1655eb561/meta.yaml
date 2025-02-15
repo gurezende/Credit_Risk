@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/ddb5d2900c5c49d3a86c13f1655eb561/artifacts
+deleted_time: 1739479641422
+end_time: 1739479460222
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: ddb5d2900c5c49d3a86c13f1655eb561
+run_name: capricious-duck-637
+run_uuid: ddb5d2900c5c49d3a86c13f1655eb561
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739479460091
+status: 4
+tags: []
+user_id: gurez

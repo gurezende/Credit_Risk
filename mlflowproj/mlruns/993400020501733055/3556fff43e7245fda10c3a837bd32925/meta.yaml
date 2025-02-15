@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/3556fff43e7245fda10c3a837bd32925/artifacts
+deleted_time: 1739481112233
+end_time: 1739480617213
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 3556fff43e7245fda10c3a837bd32925
+run_name: marvelous-shark-934
+run_uuid: 3556fff43e7245fda10c3a837bd32925
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739480613660
+status: 3
+tags: []
+user_id: gurez

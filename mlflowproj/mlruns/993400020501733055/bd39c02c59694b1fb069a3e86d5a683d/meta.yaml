@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/bd39c02c59694b1fb069a3e86d5a683d/artifacts
+deleted_time: 1739481112233
+end_time: 1739479933658
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: bd39c02c59694b1fb069a3e86d5a683d
+run_name: legendary-mare-419
+run_uuid: bd39c02c59694b1fb069a3e86d5a683d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739479930292
+status: 3
+tags: []
+user_id: gurez

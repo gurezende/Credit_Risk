@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/39e57631435c4df8a143c8109065c437/artifacts
+deleted_time: 1739487147214
+end_time: 1739487036743
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 39e57631435c4df8a143c8109065c437
+run_name: sedate-whale-298
+run_uuid: 39e57631435c4df8a143c8109065c437
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739487032638
+status: 3
+tags: []
+user_id: gurez

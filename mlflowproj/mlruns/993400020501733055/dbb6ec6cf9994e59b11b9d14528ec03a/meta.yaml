@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/dbb6ec6cf9994e59b11b9d14528ec03a/artifacts
+deleted_time: 1739554204528
+end_time: 1739483654908
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: dbb6ec6cf9994e59b11b9d14528ec03a
+run_name: painted-wren-509
+run_uuid: dbb6ec6cf9994e59b11b9d14528ec03a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739483650578
+status: 3
+tags: []
+user_id: gurez

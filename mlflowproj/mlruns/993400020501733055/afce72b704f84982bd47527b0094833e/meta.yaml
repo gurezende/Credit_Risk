@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/afce72b704f84982bd47527b0094833e/artifacts
+deleted_time: 1739554191547
+end_time: 1739482351999
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: afce72b704f84982bd47527b0094833e
+run_name: caring-mule-747
+run_uuid: afce72b704f84982bd47527b0094833e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739482348550
+status: 3
+tags: []
+user_id: gurez

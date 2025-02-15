@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/10c6540bf1d44932a37b55437debb953/artifacts
+end_time: 1739482154191
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: active
+run_id: 10c6540bf1d44932a37b55437debb953
+run_name: dashing-whale-628
+run_uuid: 10c6540bf1d44932a37b55437debb953
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739482149983
+status: 3
+tags: []
+user_id: gurez

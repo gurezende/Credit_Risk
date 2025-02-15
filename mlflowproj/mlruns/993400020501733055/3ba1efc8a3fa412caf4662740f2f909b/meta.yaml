@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/3ba1efc8a3fa412caf4662740f2f909b/artifacts
+deleted_time: 1739489832271
+end_time: 1739487096733
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 3ba1efc8a3fa412caf4662740f2f909b
+run_name: big-ant-407
+run_uuid: 3ba1efc8a3fa412caf4662740f2f909b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739487092502
+status: 3
+tags: []
+user_id: gurez

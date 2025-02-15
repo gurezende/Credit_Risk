@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/ae5865864a4746af8af07c6569b25f34/artifacts
+deleted_time: 1739489843783
+end_time: 1739487058082
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: ae5865864a4746af8af07c6569b25f34
+run_name: bemused-tern-941
+run_uuid: ae5865864a4746af8af07c6569b25f34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739487053898
+status: 3
+tags: []
+user_id: gurez

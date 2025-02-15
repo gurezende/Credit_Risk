@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/c2068260a1044f3da0234dd978e0a44b/artifacts
+end_time: 1739485824191
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: active
+run_id: c2068260a1044f3da0234dd978e0a44b
+run_name: loud-skink-129
+run_uuid: c2068260a1044f3da0234dd978e0a44b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739485820049
+status: 3
+tags: []
+user_id: gurez

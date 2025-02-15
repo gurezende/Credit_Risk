@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/73f0d911585e49a3bf1c090a8ebcaf14/artifacts
+deleted_time: 1739486920988
+end_time: 1739486751624
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 73f0d911585e49a3bf1c090a8ebcaf14
+run_name: crawling-snake-227
+run_uuid: 73f0d911585e49a3bf1c090a8ebcaf14
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739486747490
+status: 3
+tags: []
+user_id: gurez

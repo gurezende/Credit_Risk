@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/89cea63406c2478e88c277d2577e8fdf/artifacts
+deleted_time: 1739486842283
+end_time: 1739486824239
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 89cea63406c2478e88c277d2577e8fdf
+run_name: kindly-steed-92
+run_uuid: 89cea63406c2478e88c277d2577e8fdf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739486819940
+status: 3
+tags: []
+user_id: gurez

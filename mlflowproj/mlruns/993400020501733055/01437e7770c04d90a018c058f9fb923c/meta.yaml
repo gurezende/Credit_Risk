@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/01437e7770c04d90a018c058f9fb923c/artifacts
+deleted_time: 1739481112233
+end_time: 1739479859559
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 01437e7770c04d90a018c058f9fb923c
+run_name: skittish-ray-837
+run_uuid: 01437e7770c04d90a018c058f9fb923c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739479841361
+status: 3
+tags: []
+user_id: gurez

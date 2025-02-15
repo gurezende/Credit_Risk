@@ -1,0 +1,8 @@
+digest: 5d3d7528
+name: dataset
+profile: '{"features_shape": [20, 2], "features_size": 40, "features_nbytes": 320}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float64\", \"shape\": [-1, 2]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "gurez", "mlflow.source.name": "c:\\MyDocuments\\mlflow-regression\\.venv\\Lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/997fa0be45f34443a8b4c31b9ebf8fd7/artifacts
+deleted_time: 1739483143587
+end_time: 1739483106325
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 997fa0be45f34443a8b4c31b9ebf8fd7
+run_name: resilient-ray-357
+run_uuid: 997fa0be45f34443a8b4c31b9ebf8fd7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739483106205
+status: 4
+tags: []
+user_id: gurez

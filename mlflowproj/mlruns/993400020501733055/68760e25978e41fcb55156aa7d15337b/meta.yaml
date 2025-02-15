@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/68760e25978e41fcb55156aa7d15337b/artifacts
+deleted_time: 1739570537890
+end_time: 1739483510611
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 68760e25978e41fcb55156aa7d15337b
+run_name: defiant-bird-655
+run_uuid: 68760e25978e41fcb55156aa7d15337b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739483506479
+status: 3
+tags: []
+user_id: gurez

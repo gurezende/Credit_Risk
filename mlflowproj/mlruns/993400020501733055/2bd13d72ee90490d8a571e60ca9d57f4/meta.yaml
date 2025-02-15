@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/2bd13d72ee90490d8a571e60ca9d57f4/artifacts
+deleted_time: 1739554204530
+end_time: 1739483611382
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 2bd13d72ee90490d8a571e60ca9d57f4
+run_name: aged-gnat-472
+run_uuid: 2bd13d72ee90490d8a571e60ca9d57f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739483606976
+status: 3
+tags: []
+user_id: gurez

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/311b3d33d7ca40ce9b40625fff19f885/artifacts
+deleted_time: 1739483143588
+end_time: 1739483120092
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 311b3d33d7ca40ce9b40625fff19f885
+run_name: debonair-whale-306
+run_uuid: 311b3d33d7ca40ce9b40625fff19f885
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739483119990
+status: 4
+tags: []
+user_id: gurez

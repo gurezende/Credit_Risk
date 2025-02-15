@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/4946b154682441eca4dd2fb69632ddf8/artifacts
+deleted_time: 1739554191545
+end_time: 1739482355962
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 4946b154682441eca4dd2fb69632ddf8
+run_name: nimble-koi-995
+run_uuid: 4946b154682441eca4dd2fb69632ddf8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739482352115
+status: 3
+tags: []
+user_id: gurez

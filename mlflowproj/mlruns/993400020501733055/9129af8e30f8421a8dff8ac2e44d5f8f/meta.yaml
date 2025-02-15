@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/9129af8e30f8421a8dff8ac2e44d5f8f/artifacts
+end_time: 1739482233237
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: active
+run_id: 9129af8e30f8421a8dff8ac2e44d5f8f
+run_name: rare-squid-303
+run_uuid: 9129af8e30f8421a8dff8ac2e44d5f8f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739482229659
+status: 3
+tags: []
+user_id: gurez

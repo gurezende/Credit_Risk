@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/f3dd8f87c59842fd9df2d820b2d62608/artifacts
+deleted_time: 1739480485449
+end_time: 1739480471126
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: f3dd8f87c59842fd9df2d820b2d62608
+run_name: smiling-hawk-585
+run_uuid: f3dd8f87c59842fd9df2d820b2d62608
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739480467561
+status: 3
+tags: []
+user_id: gurez

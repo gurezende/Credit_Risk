@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/16fe8ef6dec54c30b789f502be33379b/artifacts
+deleted_time: 1739485841709
+end_time: 1739483697438
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 16fe8ef6dec54c30b789f502be33379b
+run_name: resilient-crab-228
+run_uuid: 16fe8ef6dec54c30b789f502be33379b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739483693488
+status: 3
+tags: []
+user_id: gurez

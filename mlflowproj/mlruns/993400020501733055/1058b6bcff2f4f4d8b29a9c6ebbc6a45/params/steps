@@ -1,0 +1,13 @@
+[('preprocess', ColumnTransformer(transformers=[('num',
+                                 Pipeline(steps=[('scaler', StandardScaler())]),
+                                 ['duration_mths', 'installment_rate_pct',
+                                  'same_resid_since', 'age',
+                                  'n_credits_this_bank', 'dependents']),
+                                ('cat',
+                                 Pipeline(steps=[('encoder',
+                                                  OneHotEncoder(drop='first'))]),
+                                 ['is_customer', 'credit_hist', 'purpose',
+                                  'savings', 'employed', 'sex_status',
+                                  'guarantors', 'property',
+                                  'other_installment_plans', 'housing', 'job',
+                                  'phone', 'foreign_worker'])])), ('rfe', RFE(estimator=LinearRegression(), n_features_to_select=10)), ('model', LinearRegression())]

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/964de0807b6749beaf87b3c03f84f99f/artifacts
+end_time: 1739562044820
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: active
+run_id: 964de0807b6749beaf87b3c03f84f99f
+run_name: likeable-croc-893
+run_uuid: 964de0807b6749beaf87b3c03f84f99f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739562041092
+status: 3
+tags: []
+user_id: gurez

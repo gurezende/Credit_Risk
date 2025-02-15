@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/ff840d28fa804a8196a5ad204dbbf913/artifacts
+deleted_time: 1739554191548
+end_time: 1739482348431
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: ff840d28fa804a8196a5ad204dbbf913
+run_name: unequaled-cub-327
+run_uuid: ff840d28fa804a8196a5ad204dbbf913
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739482344576
+status: 3
+tags: []
+user_id: gurez

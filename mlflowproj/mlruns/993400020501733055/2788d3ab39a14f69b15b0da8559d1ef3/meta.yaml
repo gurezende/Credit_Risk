@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/2788d3ab39a14f69b15b0da8559d1ef3/artifacts
+end_time: 1739482193500
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: active
+run_id: 2788d3ab39a14f69b15b0da8559d1ef3
+run_name: victorious-panda-650
+run_uuid: 2788d3ab39a14f69b15b0da8559d1ef3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739482189704
+status: 3
+tags: []
+user_id: gurez

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1738794543569
+current_stage: None
+description: ''
+last_updated_timestamp: 1738794543569
+name: regression-learn
+run_id: 8fac51038ab34c78b5a9196fe75a4ec8
+run_link: ''
+source: mlflow-artifacts:/420002559759265287/8fac51038ab34c78b5a9196fe75a4ec8/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/420002559759265287/8fac51038ab34c78b5a9196fe75a4ec8/artifacts/model
+user_id: null
+version: 2

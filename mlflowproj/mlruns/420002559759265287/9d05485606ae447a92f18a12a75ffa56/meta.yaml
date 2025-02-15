@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/420002559759265287/9d05485606ae447a92f18a12a75ffa56/artifacts
+end_time: 1738792466954
+entry_point_name: ''
+experiment_id: '420002559759265287'
+lifecycle_stage: active
+run_id: 9d05485606ae447a92f18a12a75ffa56
+run_name: adorable-mule-991
+run_uuid: 9d05485606ae447a92f18a12a75ffa56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738792466803
+status: 3
+tags: []
+user_id: gurez

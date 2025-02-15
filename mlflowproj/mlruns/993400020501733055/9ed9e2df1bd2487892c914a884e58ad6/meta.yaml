@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/9ed9e2df1bd2487892c914a884e58ad6/artifacts
+deleted_time: 1739570537889
+end_time: 1739483576790
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 9ed9e2df1bd2487892c914a884e58ad6
+run_name: dashing-squirrel-294
+run_uuid: 9ed9e2df1bd2487892c914a884e58ad6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739483572534
+status: 3
+tags: []
+user_id: gurez

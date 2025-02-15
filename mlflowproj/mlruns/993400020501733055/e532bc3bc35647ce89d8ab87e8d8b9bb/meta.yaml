@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/e532bc3bc35647ce89d8ab87e8d8b9bb/artifacts
+end_time: 1739486681185
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: active
+run_id: e532bc3bc35647ce89d8ab87e8d8b9bb
+run_name: capable-fowl-427
+run_uuid: e532bc3bc35647ce89d8ab87e8d8b9bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739486676955
+status: 3
+tags: []
+user_id: gurez

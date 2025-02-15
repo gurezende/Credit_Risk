@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/f911a24a49df4ee9a1496d936540e22c/artifacts
+deleted_time: 1739479641427
+end_time: 1739479616708
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: f911a24a49df4ee9a1496d936540e22c
+run_name: worried-conch-898
+run_uuid: f911a24a49df4ee9a1496d936540e22c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739479616639
+status: 4
+tags: []
+user_id: gurez

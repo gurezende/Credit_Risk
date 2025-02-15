@@ -1,0 +1,2 @@
+FunctionTransformer(func=<function boxcox at 0x000001A54F965120>,
+                    inverse_func=<function boxcox at 0x000001A54F965120>)

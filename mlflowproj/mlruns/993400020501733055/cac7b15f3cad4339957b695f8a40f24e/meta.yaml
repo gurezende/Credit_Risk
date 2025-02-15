@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/cac7b15f3cad4339957b695f8a40f24e/artifacts
+end_time: 1739483401052
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: active
+run_id: cac7b15f3cad4339957b695f8a40f24e
+run_name: magnificent-eel-311
+run_uuid: cac7b15f3cad4339957b695f8a40f24e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739483396599
+status: 3
+tags: []
+user_id: gurez

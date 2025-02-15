@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/3a15115641044a829d4d8671873731e1/artifacts
+deleted_time: 1739486888596
+end_time: 1739486860330
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 3a15115641044a829d4d8671873731e1
+run_name: magnificent-goose-92
+run_uuid: 3a15115641044a829d4d8671873731e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739486856023
+status: 3
+tags: []
+user_id: gurez

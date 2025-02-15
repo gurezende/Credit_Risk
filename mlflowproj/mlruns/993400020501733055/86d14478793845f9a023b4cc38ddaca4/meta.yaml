@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/86d14478793845f9a023b4cc38ddaca4/artifacts
+deleted_time: 1739481585511
+end_time: 1739481058245
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 86d14478793845f9a023b4cc38ddaca4
+run_name: lyrical-shark-308
+run_uuid: 86d14478793845f9a023b4cc38ddaca4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739481054784
+status: 3
+tags: []
+user_id: gurez

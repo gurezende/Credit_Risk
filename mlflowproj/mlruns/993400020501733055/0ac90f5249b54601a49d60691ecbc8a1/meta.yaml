@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/0ac90f5249b54601a49d60691ecbc8a1/artifacts
+deleted_time: 1739480533527
+end_time: 1739480502376
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 0ac90f5249b54601a49d60691ecbc8a1
+run_name: victorious-owl-773
+run_uuid: 0ac90f5249b54601a49d60691ecbc8a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739480499097
+status: 3
+tags: []
+user_id: gurez

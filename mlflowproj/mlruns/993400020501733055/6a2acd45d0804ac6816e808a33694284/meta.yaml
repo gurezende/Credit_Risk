@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/6a2acd45d0804ac6816e808a33694284/artifacts
+deleted_time: 1739486969769
+end_time: 1739486953273
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: deleted
+run_id: 6a2acd45d0804ac6816e808a33694284
+run_name: nosy-calf-669
+run_uuid: 6a2acd45d0804ac6816e808a33694284
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739486949062
+status: 3
+tags: []
+user_id: gurez

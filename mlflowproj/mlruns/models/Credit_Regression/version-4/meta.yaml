@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1739562795737
+current_stage: None
+description: ''
+last_updated_timestamp: 1739562795737
+name: Credit_Regression
+run_id: b94e82e6ea954af98db5908bc397b448
+run_link: ''
+source: mlflow-artifacts:/993400020501733055/b94e82e6ea954af98db5908bc397b448/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/993400020501733055/b94e82e6ea954af98db5908bc397b448/artifacts/model
+user_id: null
+version: 4

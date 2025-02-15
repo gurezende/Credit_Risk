@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/420002559759265287
+creation_time: 1738791475584
+experiment_id: '420002559759265287'
+last_update_time: 1738791475584
+lifecycle_stage: active
+name: regression-learn

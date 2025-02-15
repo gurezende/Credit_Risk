@@ -1,0 +1,41 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.20.2
+model_size_bytes: 975305
+model_uuid: c9caea8fdf024008bdf083a3e1d0e9eb
+run_id: ae5865864a4746af8af07c6569b25f34
+signature:
+  inputs: '[{"type": "string", "name": "is_customer", "required": true}, {"type":
+    "long", "name": "duration_mths", "required": true}, {"type": "string", "name":
+    "credit_hist", "required": true}, {"type": "string", "name": "purpose", "required":
+    true}, {"type": "string", "name": "savings", "required": true}, {"type": "string",
+    "name": "employed", "required": true}, {"type": "long", "name": "installment_rate_pct",
+    "required": true}, {"type": "string", "name": "sex_status", "required": true},
+    {"type": "string", "name": "guarantors", "required": true}, {"type": "long", "name":
+    "same_resid_since", "required": true}, {"type": "string", "name": "property",
+    "required": true}, {"type": "long", "name": "age", "required": true}, {"type":
+    "string", "name": "other_installment_plans", "required": true}, {"type": "string",
+    "name": "housing", "required": true}, {"type": "long", "name": "n_credits_this_bank",
+    "required": true}, {"type": "string", "name": "job", "required": true}, {"type":
+    "long", "name": "dependents", "required": true}, {"type": "string", "name": "phone",
+    "required": true}, {"type": "string", "name": "foreign_worker", "required": true},
+    {"type": "string", "name": "sex", "required": true}, {"type": "string", "name":
+    "status", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-02-13 22:50:54.413980'

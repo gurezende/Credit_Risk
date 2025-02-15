@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/c8ab9c5fb18340de9f89ec9c35283fd3/artifacts
+end_time: 1739486931477
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: active
+run_id: c8ab9c5fb18340de9f89ec9c35283fd3
+run_name: loud-owl-836
+run_uuid: c8ab9c5fb18340de9f89ec9c35283fd3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739486926251
+status: 3
+tags: []
+user_id: gurez

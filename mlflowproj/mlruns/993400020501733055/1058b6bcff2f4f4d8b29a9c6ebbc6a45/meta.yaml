@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/993400020501733055/1058b6bcff2f4f4d8b29a9c6ebbc6a45/artifacts
+end_time: 1739481856676
+entry_point_name: ''
+experiment_id: '993400020501733055'
+lifecycle_stage: active
+run_id: 1058b6bcff2f4f4d8b29a9c6ebbc6a45
+run_name: powerful-vole-405
+run_uuid: 1058b6bcff2f4f4d8b29a9c6ebbc6a45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739481852693
+status: 3
+tags: []
+user_id: gurez
