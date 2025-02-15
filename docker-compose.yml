@@ -1,7 +1,7 @@
 services:
   mlflow:
     build:
-      context: ./mlflowproj
+      context: ./mlflowproj #one dot ./ means a folder in this project. two dots ../ means a folder in a separate project
     ports:
       - "5000:5000"
     command: mlflow server --host 0.0.0.0 --port 5000
