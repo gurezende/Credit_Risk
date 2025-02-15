@@ -35,6 +35,7 @@ The model to determine the probability of default will be created at a later dat
 * `streamlit` >= 1.42.0
 * `ucimlrepo` >= 0.0
 
+![](img/logos.png)
 
 ## Getting Started
 
