@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 from scipy.special import inv_boxcox
 from scripts.utils import get_balance
+import os
 
 #-------------------------------------------------------
 
@@ -13,7 +14,7 @@ df = pd.read_csv('./.data/credits.csv')
 
 #-------------------------------------------------------
 # Making connection to the MLFlow server
-mlflow.set_tracking_uri("http://127.0.0.1:5000/")
+mlflow.set_tracking_uri("http://mlflow:5000")
 
 # Start a MLFlow Client to get the latest model version
 client = mlflow.client.MlflowClient()
@@ -25,21 +26,19 @@ version = 4 # version 4 is the Linear Regression with less variables
 model = mlflow.sklearn.load_model(f"models:/Credit_Regression/{version}")
 
 #-------------------------------------------------------
-
-# Create an empty DataFrame to store the inputs
-to_predict = pd.DataFrame(columns=model.feature_names_in_)
-
-#The model needs these columns as inputs:
-# 'is_customer', 'duration_mths', 'credit_hist', 'purpose', 'savings', 'employed',
-# 'installment_rate_pct', 'guarantors','same_resid_since', 'property', 'age', 
-# 'other_installment_plans', 'housing', 'n_credits_this_bank', 'job', 'dependents',
-# 'phone','foreign_worker', 'sex', 'status'
-
-#-------------------------------------------------------
-# APPLICATION
-#-------------------------------------------------------
-
 def main():
+    # Create an empty DataFrame to store the inputs
+    to_predict = pd.DataFrame(columns=model.feature_names_in_)
+
+    #The model needs these columns as inputs:
+    # 'is_customer', 'duration_mths', 'credit_hist', 'purpose', 'savings', 'employed',
+    # 'installment_rate_pct', 'guarantors','same_resid_since', 'property', 'age', 
+    # 'other_installment_plans', 'housing', 'n_credits_this_bank', 'job', 'dependents',
+    # 'phone','foreign_worker', 'sex', 'status'
+
+    #-------------------------------------------------------
+    # APPLICATION
+    #-------------------------------------------------------
 
     # Create the input form
     st.title('Pre-Approved Credit Amount')
@@ -291,7 +290,7 @@ def main():
 
         # Estimated Credit
         st.title('Pre-Approved Credit Amount')
-        st.subheader(f'Predicted Credit Amount: ${f_pred:,}')
+        st.subheader(f'Estimated Credit Amount: ${f_pred:,}')
 
         st.write('')
         st.write('')
@@ -347,8 +346,15 @@ def main():
 
         st.button('Reset')
 
+        st.scatter_chart(data=df_filtered,
+                         x='purpose',
+                         y='credit_amt',
+                         size= 50,
+                         color='purpose')
+        
+
     else:
-        st.subheader('Predicted Credit Amount: $0.00')
+        st.subheader('Estimated Credit Amount: $0.00')
 
 if __name__ == '__main__':
     main()

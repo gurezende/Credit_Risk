@@ -19,5 +19,3 @@ def get_balance(balance):
     else:  # This 'else' is unlikely to be reached now, but good practice
         return "no checking account"  # Consider what this really means
         
-# Test
-print(get_balance('200001'))
