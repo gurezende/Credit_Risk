@@ -59,3 +59,12 @@ The Streamlit app will be available at http://localhost:8501
 #### Troubleshooting
 If you encounter any issues during the build process, check the Docker Compose logs for errors
 If you're unable to access the MLflow server or Streamlit app, ensure that the containers are running and that the ports are correctly mapped
+
+## Images
+<table>
+  <tr>
+    <td width="33%"><img src="Credit-Amt-App.jpg" alt="App Image"></td>
+    <td width="33%"><img src="MLFlow_Experiments.jpg" alt="MLFlow Experiments"></td>
+    <td width="33%"><img src="MLFlow_Models.jpg" alt="Models"></td>
+  </tr>
+</table>
