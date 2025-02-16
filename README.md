@@ -46,12 +46,12 @@ Docker and Docker Compose installed on your system
 #### Step-by-Step Instructions
 
 1. Clone the Credit Risk repository:
-Run `git clone https://github.com/gurezende/Credit_Risk.git` in your terminal
+Run `git clone https://github.com/gurezende/Credit_Risk.git` in your terminal.
 This will download the Credit Risk repository to your local machine
 
 2. Start the application using Docker Compose:
-Navigate to the credit-risk directory: cd credit-risk
-Run `**docker-compose up --build**` to build and start the containers
+Navigate to the credit-risk directory: `cd credit-risk`<br>
+Run `**docker-compose up --build**` to build and start the containers.
 
 #### What to Expect
 The MLflow server will be available at http://localhost:5000<br>
