@@ -46,19 +46,19 @@ Docker and Docker Compose installed on your system
 #### Step-by-Step Instructions
 
 1. Clone the Credit Risk repository:
-Run git clone https://github.com/gurezende/Credit_Risk.git in your terminal
+Run `git clone https://github.com/gurezende/Credit_Risk.git` in your terminal
 This will download the Credit Risk repository to your local machine
 
 2. Start the application using Docker Compose:
 Navigate to the credit-risk directory: cd credit-risk
-Run **docker-compose up --build** to build and start the containers
+Run `**docker-compose up --build**` to build and start the containers
 
 #### What to Expect
-The MLflow server will be available at http://localhost:5000
+The MLflow server will be available at http://localhost:5000<br>
 The Streamlit app will be available at http://localhost:8501
 
 #### Troubleshooting
-If you encounter any issues during the build process, check the Docker Compose logs for errors
+If you encounter any issues during the build process, check the Docker Compose logs for errors.<br>
 If you're unable to access the MLflow server or Streamlit app, ensure that the containers are running and that the ports are correctly mapped
 
 ## Images
